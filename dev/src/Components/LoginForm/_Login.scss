@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+$arFont: "Cairo", sans-serif;
+$enFont: "Poppins", sans-serif;
+$btnColor: #7db406;
+
+*{
+  font-family: $enFont;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#loginForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 80vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: $arFont;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: $arFont;
+  color: #afafaf;
+  font-size: 0.62rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.submit {
+  background-color: $btnColor;
+  color: white;
+  box-shadow: none;
+}

@@ -1,5 +1,4 @@
 import React, { useState, useCallback } from 'react';
-import './Login.css';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input, Flex } from 'antd';
 
